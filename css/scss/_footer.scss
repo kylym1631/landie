@@ -1,0 +1,99 @@
+.footer {
+    background-color: $main-blue-100;
+
+    &__upper {
+        padding-top: 3.79rem;
+        display: flex;
+        align-items: baseline;
+        padding-bottom: 2.50rem;
+        border-bottom: 0.06rem solid #CDD1D4;
+    }
+
+    &__copyright {
+        flex: 1 1 0;
+        font-size: 0.88rem;
+        line-height: 1.50rem;
+        font-weight: 500;
+        color: $main-grey-400;
+    }
+
+    &__logo {
+        flex: 1 1 0;
+    }
+
+    &__button {
+        flex: 1 1 0;
+        padding: 0.25rem 0;
+        width: 6.81rem;
+        font-size: 0.75rem;
+        line-height: 1.13rem;
+    }
+
+    &__lower {
+        padding-top: 1.75rem;
+        padding-bottom: 1.65rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+
+        .menu {
+            &__item {
+                margin-right: 3.75rem;
+
+                a {
+                    color: $main-blue-300;
+                    font-size: 0.88rem;
+                    line-height: 1.50rem;
+                    font-weight: 400;
+
+                    &:hover,
+                    &:focus {
+                        color: $main-blue-500;
+                    }
+
+                }
+            }
+        }
+    }
+
+    &__social {
+        display: flex;
+        justify-content: space-between;
+
+        .social {
+            &__item {
+                margin-left: 1.88rem;
+
+                a {
+                    svg {
+                        width: 1rem;
+
+                        path {
+                            fill: #B0B8BC;
+                        }
+                    }
+
+                    &:hover,
+                    &:focus {
+                        path {
+                            fill: #7b7e7f;
+                        }
+                    }
+
+                    &:active {
+                        path {
+                            fill: $main-blue-300;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+}

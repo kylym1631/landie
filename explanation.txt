@@ -1,0 +1,3 @@
+* Most section names are taken from figma design
+* I didn't create separate folders for each section
+  because images & icons are not that many

@@ -1,0 +1,46 @@
+.pricing {
+    padding-top: 17.16rem;
+    padding-bottom: 10.78rem;
+    background: url('../img/pricing-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    &__text {
+        margin-right: auto;
+        margin-left: auto;
+        width: 37.50rem;
+    }
+
+    &__price {
+        margin-top: 2.24rem;
+        letter-spacing: 0.06rem;
+        line-height: 4.13rem;
+        font-size: 3.13rem;
+        color: $main-blue-700;
+    }
+
+    &__name {
+        color: $main-blue-600;
+        font-size: 1rem;
+        line-height: 1.63rem;
+        font-weight: 400;
+    }
+
+    &__hook {
+        margin-top: 3.75rem;
+        font-weight: 400;
+        font-size: 0.88rem;
+        line-height: 1.50rem;
+        color: $main-grey-600;
+
+    }
+
+    &__button {
+        margin-top: 0.56rem;
+        padding: 0.25rem 0;
+        width: 11.81rem;
+        font-size: 0.88rem;
+        line-height: 1.50rem;
+    }
+}

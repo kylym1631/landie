@@ -1,0 +1,57 @@
+.header {
+    margin-top: 0.38rem;
+    margin-bottom: 1rem;
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        .menu {
+            flex: 1 1 0;
+
+            &__list {
+                display: flex;
+            }
+
+            &__item {
+                margin-right: 3.75rem;
+                font-size: 0.88rem;
+                line-height: 1.5rem;
+
+                a {
+                    color: $main-blue-500;
+
+                    &:hover,
+                    &:focus {
+                        color: $main-blue-800;
+                    }
+
+                    &:active {
+                        color: $main-blue-300;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .button__wrapper {
+        flex: 1 1 0;
+        text-align: end;
+    }
+
+    &__button {
+        font-size: 0.75rem;
+        line-height: 1.13rem;
+        width: 10rem;
+        margin-left: auto;
+        padding: 0.25rem 0;
+        letter-spacing: 0.06rem;
+    }
+
+    &__logo {
+        flex: 1 1 0;
+        text-align: center;
+    }
+}

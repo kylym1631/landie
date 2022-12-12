@@ -1,0 +1,45 @@
+.logo {
+    color: $logo-primary;
+    font-size: 1.63rem;
+    line-height: 2.38rem;
+    font-weight: 900;
+
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background-color: $main-blue-800;
+    border-radius: 0.13rem;
+    color: #ffffff;
+    font-weight: 500;
+
+    &:hover,
+    &:focus {
+        background-color: $main-blue-600;
+    }
+
+    &:active {
+        background-color: $main-blue-700;
+    }
+}
+
+section {
+    padding-left: 10.31rem;
+    padding-right: 10.31rem;
+}
+
+.title {
+    font-size: 2.25rem;
+    color: $main-grey-700;
+    line-height: 3rem;
+    font-weight: 500;
+}
+
+.text {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.63rem;
+    color: $main-grey-600;
+    font-weight: 400;
+}

@@ -1,0 +1,50 @@
+.undraw {
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+        padding-top: 10rem;
+        width: 33.75rem;
+        display: inline-block;
+    }
+
+    &__title {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    &__card {
+        display: inline-block;
+        margin-top: 5rem;
+        width: 15.94rem;
+
+        .card {
+            &__icon {
+                height: 2.25rem;
+            }
+
+            &__subtitle {
+                margin-top: 0.88rem;
+                color: $main-grey-700;
+                font-size: 1rem;
+                line-height: 1.63rem;
+                font-weight: 500;
+            }
+
+            &__desc {
+                margin-top: 0.38rem;
+                color: $main-grey-600;
+                font-weight: 400;
+                font-size: 0.75rem;
+                line-height: 1.13rem;
+            }
+        }
+
+    }
+
+    &__img {
+        padding-top: 6.85rem;
+        width: 33.75rem;
+        display: inline-block;
+    }
+
+}

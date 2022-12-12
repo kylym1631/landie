@@ -1,0 +1,16 @@
+.intro {
+    display: flex;
+    justify-content: space-between;
+
+    &__right {
+        display: inline-block;
+        margin-top: 10.63rem;
+        width: 27.81rem;
+    }
+
+    &__img {
+        display: inline-block;
+        margin-top: 7.53rem;
+        width: 30rem;
+    }
+}

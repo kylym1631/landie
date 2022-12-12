@@ -1,0 +1,27 @@
+* {
+    transition: all 0.15s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.loading {
+    opacity: 0;
+    transform: translateY(45px);
+    transition: transform 0.8s, opacity 1s;
+
+    &.loaded {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0s;
+    }
+}
+
+@import 'reset';
+@import 'variables';
+@import 'components';
+@import 'header';
+@import 'hero';
+@import 'undraw';
+@import 'intro';
+@import 'pricing';
+@import 'footer';
+@import 'media';
